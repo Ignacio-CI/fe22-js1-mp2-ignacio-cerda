@@ -43,15 +43,15 @@ function generateGame(event){
     let computerChoice = Math.round(Math.random() * 2);
    
     if(computerChoice == 0){
-        showComputerChoice.src = "../img/sten.png";
+        showComputerChoice.src = "./img/sten.png";
         showComputerChoice.style.visibility = 'hidden';
     }
     else if(computerChoice == 1){
-        showComputerChoice.src = "../img/sax.png";
+        showComputerChoice.src = "./img/sax.png";
         showComputerChoice.style.visibility = 'hidden';
     }
     else{
-        showComputerChoice.src = "../img/pase.png";
+        showComputerChoice.src = "./img/pase.png";
         showComputerChoice.style.visibility = 'hidden';
     }
 
